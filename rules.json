@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "streamvault.top",
+            "resourceTypes": [
+                "script",
+                "xmlhttprequest",
+                "image",
+                "sub_frame",
+                "stylesheet",
+                "main_frame"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "acscdn.com",
+            "resourceTypes": [
+                "script",
+                "xmlhttprequest",
+                "image",
+                "sub_frame",
+                "stylesheet",
+                "main_frame"
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "brunettescarecrowyoga.com",
+            "resourceTypes": [
+                "script",
+                "xmlhttprequest",
+                "image",
+                "sub_frame",
+                "stylesheet",
+                "main_frame"
+            ]
+        }
+    }
+]

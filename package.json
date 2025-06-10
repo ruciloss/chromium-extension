@@ -1,0 +1,25 @@
+{
+    "private": true,
+    "name": "chromium-extension",
+    "version": "1.0.0",
+    "scripts": {
+        "clean": "rimraf .next",
+        "format": "prettier --write \"**/*.{js,cjs,mjs,ts,json,css,scss,yml,md,mdx,html}\"",
+        "postinstall": "husky",
+        "prepare": "husky"
+    },
+    "lint-staged": {
+        "*.{js,cjs,mjs,ts,json,css,scss,yml,md,mdx,html}": [
+            "yarn format"
+        ]
+    },
+    "devDependencies": {
+        "@types/chrome": "^0.0.326",
+        "husky": "^9.1.7",
+        "lint-staged": "^16.1.0",
+        "prettier": "^3.5.3",
+        "rimraf": "^6.0.1",
+        "typescript": "^5.8.3"
+    },
+    "packageManager": "yarn@4.9.1+sha512.f95ce356460e05be48d66401c1ae64ef84d163dd689964962c6888a9810865e39097a5e9de748876c2e0bf89b232d583c33982773e9903ae7a76257270986538"
+}
