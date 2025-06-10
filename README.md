@@ -1,8 +1,8 @@
 # Chromium Extension
 
 ![Badge](https://img.shields.io/badge/License-MIT-blue)
-![Badge](https://img.shields.io/badge/Version-1.0.0-orange)
-![Badge](https://img.shields.io/badge/Release-stable-brightgreen)
+![Badge 2](https://img.shields.io/badge/Version-1.0.0-orange)
+![Badge 3](https://img.shields.io/badge/Release-stable-brightgreen)
 
 A boilerplate browser extension template for Chromium-based browsers to help you build powerful and customizable extensions easily.
 
