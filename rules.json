@@ -46,5 +46,37 @@
                 "main_frame"
             ]
         }
+    },
+    {
+        "id": 4,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "curledpastpatty.com",
+            "resourceTypes": [
+                "script",
+                "xmlhttprequest",
+                "image",
+                "sub_frame",
+                "stylesheet",
+                "main_frame"
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": "beststream.xyz",
+            "resourceTypes": [
+                "script",
+                "xmlhttprequest",
+                "image",
+                "sub_frame",
+                "stylesheet",
+                "main_frame"
+            ]
+        }
     }
 ]
